@@ -1,0 +1,5 @@
+# What Did I Learn In This Assignment?
+
+1. **Translating Warehousing Rules into Code**: I learned how to represent 3D physical box constraints computationally. Sorting coordinates (length, width, height) allows checking whether an item fits inside a container under any 3D rotation without requiring heavy spatial physics libraries.
+2. **Clean API Architecture in Django**: I practiced decoupling core business rules into a dedicated service layer (`services.py`), keeping the API view (`views.py`) clean and focused strictly on HTTP serialization and response codes.
+3. **Critical Assessment of AI Code**: Working with AI highlighted the importance of code review. The generated snippets needed manual correction for decimal precision on financial values, aggregate weight handling, and edge-case error checks.
