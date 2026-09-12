@@ -14,19 +14,19 @@ Hello Rahul,
 Congratulations! Your profile has been shortlisted for the Python/Django Developer Intern opportunity.
 Please complete and submit the assignment within 24 hours of receiving this email.
 Assignment Deliverables:
-- GitHub Repository Link
-- README.md
-- AI_USAGE.md (including AI tools used, prompts, accepted/rejected outputs, mistakes identified, and verification steps)
-- Exported chat transcript attached and included in the repository
-- Test Cases
-- Chat Transcript File
-- Test Run Output (either a GitHub Actions link or a TEST_OUTPUT.md file containing terminal output)
+  - GitHub Repository Link
+  - README.md
+  - AI_USAGE.md (including AI tools used, prompts, accepted/rejected outputs, mistakes identified, and verification steps)
+  - Exported chat transcript attached and included in the repository
+  - Test Cases
+  - Chat Transcript File
+  - Test Run Output (either a GitHub Actions link or a TEST_OUTPUT.md file containing terminal output)
 Please share all the required deliverables in a single ZIP file for ease of review.
 Job Requirements Confirmation:
 Additionally, please confirm your alignment with the following internship requirements:
-- Location: Are you open to relocating to Koregaon Park, Pune, for this on-site role?
-- Availability: What is your earliest availability to join?
-- Stipend: Are you comfortable with a monthly stipend of INR 15,000 - 17,100?
+  - Location: Are you open to relocating to Koregaon Park, Pune, for this on-site role?
+  - Availability: What is your earliest availability to join?
+  - Stipend: Are you comfortable with a monthly stipend of INR 15,000 - 17,100?
 We look forward to your submission.
 
 User:
@@ -34,31 +34,13 @@ so how to send our assigment through email or what
 
 User:
 Python/Django Hiring Assignment: AI-Assisted Box Selection System
-Context:
+Context
 We operate an ecommerce platform. When a customer places an order, the warehouse team needs to know which shipping box should be used. Each product has dimensions and weight. Each box has internal dimensions, maximum weight capacity, and cost.
 Your task is to design and build a small Django-based system that recommends the most suitable box for an order.
 You are allowed to use AI tools such as ChatGPT, Claude, Cursor, GitHub Copilot, or similar tools. However, your submission must clearly show your own thinking.
 
-AI Usage:
-You may use AI tools, but include an AI_USAGE.md file containing:
-1. Which AI tool(s) you used.
-2. The prompts you gave.
-3. What output you accepted.
-4. What output you rejected or modified.
-5. Any mistakes the AI made.
-6. How you verified the final code.
-
 User:
-give step to step and buld best project from project creation and give small part
-
-User:
-next
-
-User:
-next
-
-User:
-next
+okay give from basic and make best project to select me
 
 User:
 PS C:\Users\PCP\Desktop\box_selection_system> venv\Scripts\activate
@@ -68,12 +50,23 @@ User:
 env\Scripts\Activate.ps1 : The term '.\venv\Scripts\Activate.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program.
 
 User:
+next
+
+User:
+next
+
+User:
+next
+
+User:
 Not Found: /
 [12/Sep/2026 09:51:15] "GET / HTTP/1.1" 404 2310
 Method Not Allowed (GET): /api/recommend-box/
 [12/Sep/2026 09:51:30] "GET /api/recommend-box/ HTTP/1.1" 405 0
 
 User:
+-selection-system.git
+(venv) PS C:\Users\PCP\Desktop\box_selection_system> git push -u origin main
 fatal: unable to access 'https://github.com/<your-username>/box-selection-system.git/': The requested URL returned error: 400
 
 User:
